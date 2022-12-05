@@ -1,7 +1,7 @@
 pipeline {
   agent any
   
-  stage any {
+  stages  {
     stage('Build') {
       when{
         changeRequest()
